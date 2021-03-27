@@ -174,11 +174,9 @@ int main()
                 }
                 else
                     printf("Excluir:: Sem contatos para excluir\n\n");
-                    break;
+                break;
 
-            case 3: 
-                printf("\n### LISTAR ####\n");
-                Contato **contatos = obterArray(fila);
+            case 3: printf("\n### LISTAR ####\n"); Contato **contatos = obterArray(fila);
                 for (int i = 0; i < tamanho(fila); i++) 
                 {
                     printf("**************************\n");
